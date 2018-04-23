@@ -12,6 +12,7 @@
     <modules>
         <module>TestNG</module>
         <module>Report</module>
+        <module>HttpClient</module>
     </modules>
 
 

@@ -7,6 +7,30 @@ Java + Maven + TestNG + Maco + HttpClient + MyBatis + MySQL + ExtentReport
 
 ### TestNG
 ### ExtentReport
+Maven pom.xml引用
+```xml
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>3.1.5</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+        <dependency>
+            <groupId>com.relevantcodes</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>2.41.2</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.vimalselvam/testng-extentsreport -->
+        <dependency>
+            <groupId>com.vimalselvam</groupId>
+            <artifactId>testng-extentsreport</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+```
 ### moco
 ### http协议
 查看http协议信息头：浏览器开发小工具、Fiddler
@@ -42,3 +66,5 @@ Java + Maven + TestNG + Maco + HttpClient + MyBatis + MySQL + ExtentReport
 - cookie就是小一段文本信息
 - cookie的格式为 key:value;key:value...
 - cookie的值由服务端生成，客户端保存
+
+### HttpClient
