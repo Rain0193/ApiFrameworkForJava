@@ -42,7 +42,7 @@
       "status": 200,
       "json": {
         "Jojo": "success",
-        "status": 1
+        "status": "1"
       }
     }
   }
