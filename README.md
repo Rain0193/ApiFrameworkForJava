@@ -72,3 +72,15 @@ Maven pom.xml引用
 ### SpringBoot初级使用
 ##### get请求的开发
 ##### SwaggerUI的使用
+
+
+### Mybatis
+数据持久层框架Mybatis的应用
+
+##### Mybatis和logback的应用配置
+
+### Mybatis+MySQL实现用例管理
+##### MySQL的表结构设计
+每个表保存是每个接口的case
+
+

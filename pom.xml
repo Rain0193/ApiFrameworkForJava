@@ -20,6 +20,7 @@
         <module>Report</module>
         <module>HttpClient</module>
         <module>SpringBoot</module>
+        <module>MyBatis</module>
     </modules>
 
 

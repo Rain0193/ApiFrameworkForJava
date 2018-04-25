@@ -1,0 +1,214 @@
+2018-04-25 23:02:11.798 [main] INFO  com.Application - Starting Application on LvjingdeMBP.lan with PID 11264 (/Users/lvjing/IdeaProjects/ApiFrameworkForJava/MyBatis/target/classes started by lvjing in /Users/lvjing/IdeaProjects/ApiFrameworkForJava)
+2018-04-25 23:02:11.813 [main] INFO  com.Application - No active profile set, falling back to default profiles: default
+2018-04-25 23:02:11.933 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b2bbc3: startup date [Wed Apr 25 23:02:11 CST 2018]; root of context hierarchy
+2018-04-25 23:02:14.463 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-04-25 23:02:15.325 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-04-25 23:02:15.355 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-25 23:02:15.355 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-25 23:02:15.359 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvjing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-25 23:02:15.466 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-25 23:02:15.466 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3533 ms
+2018-04-25 23:02:15.610 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-04-25 23:02:15.619 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 23:02:15.619 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 23:02:15.620 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 23:02:15.620 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 23:02:16.068 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:02:16.259 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b2bbc3: startup date [Wed Apr 25 23:02:11 CST 2018]; root of context hierarchy
+2018-04-25 23:02:16.267 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in JSONPResponseBodyAdvice
+2018-04-25 23:02:16.267 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-04-25 23:02:16.267 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonViewResponseBodyAdvice
+2018-04-25 23:02:16.549 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserList],methods=[GET]}" onto public int com.controller.Demo.getUserCount()
+2018-04-25 23:02:16.553 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 23:02:16.553 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 23:02:16.579 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:02:16.579 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:02:16.592 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in JSONPResponseBodyAdvice
+2018-04-25 23:02:16.593 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-04-25 23:02:16.593 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonViewResponseBodyAdvice
+2018-04-25 23:02:16.833 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-04-25 23:02:16.836 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-25 23:02:16.847 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-25 23:02:16.936 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-25 23:02:16.943 [main] INFO  com.Application - Started Application in 5.894 seconds (JVM running for 7.326)
+2018-04-25 23:02:57.615 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-25 23:02:57.616 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-25 23:02:57.642 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2018-04-25 23:03:18.459 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-04-25 23:03:18.749 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-04-25 23:03:33.010 [Thread-15] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b2bbc3: startup date [Wed Apr 25 23:02:11 CST 2018]; root of context hierarchy
+2018-04-25 23:03:33.018 [Thread-15] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-04-25 23:03:33.019 [Thread-15] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-04-25 23:03:33.021 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-04-25 23:03:33.031 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-04-25 23:03:42.777 [background-preinit] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryImpl - HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2018-04-25 23:03:42.960 [main] INFO  com.Application - Starting Application on LvjingdeMBP.lan with PID 11282 (/Users/lvjing/IdeaProjects/ApiFrameworkForJava/MyBatis/target/classes started by lvjing in /Users/lvjing/IdeaProjects/ApiFrameworkForJava)
+2018-04-25 23:03:42.966 [main] INFO  com.Application - No active profile set, falling back to default profiles: default
+2018-04-25 23:03:43.128 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:03:43 CST 2018]; root of context hierarchy
+2018-04-25 23:03:45.254 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-04-25 23:03:46.024 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-04-25 23:03:46.045 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-25 23:03:46.045 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-25 23:03:46.049 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvjing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-25 23:03:46.182 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-25 23:03:46.183 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3055 ms
+2018-04-25 23:03:46.387 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-04-25 23:03:46.391 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 23:03:46.392 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 23:03:46.392 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 23:03:46.392 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 23:03:46.797 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:03:47.310 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:03:43 CST 2018]; root of context hierarchy
+2018-04-25 23:03:47.318 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in JSONPResponseBodyAdvice
+2018-04-25 23:03:47.319 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-04-25 23:03:47.319 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonViewResponseBodyAdvice
+2018-04-25 23:03:47.627 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.controller.Demo.getUserCount()
+2018-04-25 23:03:47.635 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 23:03:47.636 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 23:03:47.669 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:03:47.669 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:03:47.692 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in JSONPResponseBodyAdvice
+2018-04-25 23:03:47.692 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-04-25 23:03:47.692 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonViewResponseBodyAdvice
+2018-04-25 23:03:47.930 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-04-25 23:03:47.933 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-25 23:03:47.938 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-25 23:03:48.003 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-25 23:03:48.008 [main] INFO  com.Application - Started Application in 5.775 seconds (JVM running for 6.922)
+2018-04-25 23:04:02.278 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-25 23:04:02.279 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-25 23:04:02.298 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms
+2018-04-25 23:04:02.332 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-04-25 23:04:02.588 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-04-25 23:08:58.643 [Thread-15] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:03:43 CST 2018]; root of context hierarchy
+2018-04-25 23:08:58.678 [Thread-15] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-04-25 23:08:58.681 [Thread-15] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-04-25 23:08:58.685 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-04-25 23:08:58.699 [Thread-15] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-04-25 23:09:11.251 [main] INFO  com.Application - Starting Application on LvjingdeMBP.lan with PID 11310 (/Users/lvjing/IdeaProjects/ApiFrameworkForJava/MyBatis/target/classes started by lvjing in /Users/lvjing/IdeaProjects/ApiFrameworkForJava)
+2018-04-25 23:09:11.262 [main] INFO  com.Application - No active profile set, falling back to default profiles: default
+2018-04-25 23:09:11.353 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cd1699: startup date [Wed Apr 25 23:09:11 CST 2018]; root of context hierarchy
+2018-04-25 23:09:14.516 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-04-25 23:09:15.356 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-04-25 23:09:15.389 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-25 23:09:15.390 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-25 23:09:15.395 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvjing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-25 23:09:15.490 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-25 23:09:15.490 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4137 ms
+2018-04-25 23:09:15.665 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-04-25 23:09:15.670 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 23:09:15.671 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 23:09:15.671 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 23:09:15.671 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 23:09:16.099 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:09:16.605 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cd1699: startup date [Wed Apr 25 23:09:11 CST 2018]; root of context hierarchy
+2018-04-25 23:09:16.617 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in JSONPResponseBodyAdvice
+2018-04-25 23:09:16.618 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-04-25 23:09:16.618 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonViewResponseBodyAdvice
+2018-04-25 23:09:17.071 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.controller.Demo.addUser(com.model.User)
+2018-04-25 23:09:17.072 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.controller.Demo.getUserCount()
+2018-04-25 23:09:17.088 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 23:09:17.090 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 23:09:17.142 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:09:17.143 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:09:17.162 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in JSONPResponseBodyAdvice
+2018-04-25 23:09:17.162 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-04-25 23:09:17.162 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonViewResponseBodyAdvice
+2018-04-25 23:09:17.834 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-04-25 23:09:17.837 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-25 23:09:17.847 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-25 23:09:17.906 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-25 23:09:17.911 [main] INFO  com.Application - Started Application in 7.275 seconds (JVM running for 8.444)
+2018-04-25 23:10:39.911 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-25 23:10:39.912 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-25 23:10:39.928 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-04-25 23:11:23.623 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-04-25 23:11:23.843 [http-nio-8888-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-04-25 23:12:34.409 [Thread-17] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@14cd1699: startup date [Wed Apr 25 23:09:11 CST 2018]; root of context hierarchy
+2018-04-25 23:12:34.460 [Thread-17] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-04-25 23:12:34.470 [Thread-17] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-04-25 23:12:34.474 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-04-25 23:12:34.514 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2018-04-25 23:12:44.355 [main] INFO  com.Application - Starting Application on LvjingdeMBP.lan with PID 11317 (/Users/lvjing/IdeaProjects/ApiFrameworkForJava/MyBatis/target/classes started by lvjing in /Users/lvjing/IdeaProjects/ApiFrameworkForJava)
+2018-04-25 23:12:44.359 [main] INFO  com.Application - No active profile set, falling back to default profiles: default
+2018-04-25 23:12:44.560 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@235834f2: startup date [Wed Apr 25 23:12:44 CST 2018]; root of context hierarchy
+2018-04-25 23:12:46.954 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-04-25 23:12:47.670 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-04-25 23:12:47.695 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-25 23:12:47.695 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-25 23:12:47.699 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvjing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-25 23:12:47.779 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-25 23:12:47.779 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3219 ms
+2018-04-25 23:12:47.890 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-04-25 23:12:47.894 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 23:12:47.895 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 23:12:47.895 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 23:12:47.895 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 23:12:48.299 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:12:48.476 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@235834f2: startup date [Wed Apr 25 23:12:44 CST 2018]; root of context hierarchy
+2018-04-25 23:12:48.483 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in JSONPResponseBodyAdvice
+2018-04-25 23:12:48.484 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-04-25 23:12:48.484 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonViewResponseBodyAdvice
+2018-04-25 23:12:48.747 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.controller.Demo.addUser(com.model.User)
+2018-04-25 23:12:48.748 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.controller.Demo.getUserCount()
+2018-04-25 23:12:48.750 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 23:12:48.751 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 23:12:48.773 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:12:48.773 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:12:48.786 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in JSONPResponseBodyAdvice
+2018-04-25 23:12:48.786 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-04-25 23:12:48.786 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonViewResponseBodyAdvice
+2018-04-25 23:12:48.992 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-04-25 23:12:48.994 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-25 23:12:49.000 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-25 23:12:49.077 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-25 23:12:49.082 [main] INFO  com.Application - Started Application in 5.259 seconds (JVM running for 6.443)
+2018-04-25 23:21:08.333 [Thread-14] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@235834f2: startup date [Wed Apr 25 23:12:44 CST 2018]; root of context hierarchy
+2018-04-25 23:21:08.373 [Thread-14] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-04-25 23:21:08.374 [Thread-14] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-04-25 23:21:18.360 [main] INFO  com.Application - Starting Application on LvjingdeMBP.lan with PID 11345 (/Users/lvjing/IdeaProjects/ApiFrameworkForJava/MyBatis/target/classes started by lvjing in /Users/lvjing/IdeaProjects/ApiFrameworkForJava)
+2018-04-25 23:21:18.365 [main] INFO  com.Application - No active profile set, falling back to default profiles: default
+2018-04-25 23:21:18.526 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:21:18 CST 2018]; root of context hierarchy
+2018-04-25 23:21:20.985 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com]' package. Please check your configuration.
+2018-04-25 23:21:22.388 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2018-04-25 23:21:22.420 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-04-25 23:21:22.421 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-25 23:21:22.427 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/lvjing/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-04-25 23:21:22.541 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-04-25 23:21:22.541 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4015 ms
+2018-04-25 23:21:22.701 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-04-25 23:21:22.709 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-25 23:21:22.710 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-25 23:21:22.711 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-25 23:21:22.711 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-25 23:21:23.366 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:21:23.587 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:21:18 CST 2018]; root of context hierarchy
+2018-04-25 23:21:23.597 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in JSONPResponseBodyAdvice
+2018-04-25 23:21:23.598 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonpResponseBodyAdvice
+2018-04-25 23:21:23.598 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Detected ResponseBodyAdvice bean in fastJsonViewResponseBodyAdvice
+2018-04-25 23:21:23.792 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/addUser],methods=[POST]}" onto public int com.controller.Demo.addUser(com.model.User)
+2018-04-25 23:21:23.794 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserCount],methods=[GET]}" onto public int com.controller.Demo.getUserCount()
+2018-04-25 23:21:23.795 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/updateUser],methods=[POST]}" onto public int com.controller.Demo.updateUser(com.model.User)
+2018-04-25 23:21:23.796 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/deleteUser],methods=[POST]}" onto public int com.controller.Demo.deleteUser(com.model.User)
+2018-04-25 23:21:23.802 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-25 23:21:23.803 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-25 23:21:23.833 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:21:23.834 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-25 23:21:23.846 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in JSONPResponseBodyAdvice
+2018-04-25 23:21:23.847 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonpResponseBodyAdvice
+2018-04-25 23:21:23.847 [main] INFO  o.s.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Detected ResponseBodyAdvice implementation in fastJsonViewResponseBodyAdvice
+2018-04-25 23:21:24.132 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-04-25 23:21:24.134 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+2018-04-25 23:21:24.139 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-04-25 23:21:24.199 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2018-04-25 23:21:24.203 [main] INFO  com.Application - Started Application in 6.433 seconds (JVM running for 7.455)
+2018-04-25 23:23:09.159 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-04-25 23:23:09.160 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-04-25 23:23:09.176 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2018-04-25 23:23:09.259 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2018-04-25 23:23:09.454 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2018-04-25 23:25:57.808 [Thread-16] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5aa9e4eb: startup date [Wed Apr 25 23:21:18 CST 2018]; root of context hierarchy
+2018-04-25 23:25:57.854 [Thread-16] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2018-04-25 23:25:57.856 [Thread-16] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+2018-04-25 23:25:57.860 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2018-04-25 23:25:57.877 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
