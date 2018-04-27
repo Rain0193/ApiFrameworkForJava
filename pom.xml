@@ -21,6 +21,7 @@
         <module>HttpClient</module>
         <module>SpringBoot</module>
         <module>MyBatis</module>
+        <module>DevApiTest</module>
     </modules>
 
 
