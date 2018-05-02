@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ApiFrameworkForJava.iml" filepath="$PROJECT_DIR$/.idea/ApiFrameworkForJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DevApiTest/DevApiTest.iml" filepath="$PROJECT_DIR$/DevApiTest/DevApiTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/HttpClient/HttpClient.iml" filepath="$PROJECT_DIR$/HttpClient/HttpClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBatis/MyBatis.iml" filepath="$PROJECT_DIR$/MyBatis/MyBatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Report/Report.iml" filepath="$PROJECT_DIR$/Report/Report.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestNG/TestNG.iml" filepath="$PROJECT_DIR$/TestNG/TestNG.iml" />

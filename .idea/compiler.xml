@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="DevApiTest" />
         <module name="HttpClient" />
+        <module name="MyBatis" />
         <module name="Report" />
         <module name="SpringBoot" />
         <module name="TestNG" />
@@ -14,7 +16,9 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ApiFrameworkForJava" target="1.8" />
+      <module name="DevApiTest" target="1.8" />
       <module name="HttpClient" target="1.8" />
+      <module name="MyBatis" target="1.8" />
       <module name="Report" target="1.6" />
       <module name="SpringBoot" target="1.8" />
       <module name="TestNG" target="1.5" />
